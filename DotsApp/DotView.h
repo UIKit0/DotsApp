@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DotView : UIView
-
+- (instancetype)initWithFrame:(CGRect)frame color:(UIColor*)color;
 @end

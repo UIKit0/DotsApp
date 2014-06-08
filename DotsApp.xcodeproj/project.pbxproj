@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF8D96A81943D2A900276684 /* OverlayScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8D96A71943D2A900276684 /* OverlayScrollView.m */; };
+		CF8D96AB1943DD6B00276684 /* TouchDelayGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8D96AA1943DD6B00276684 /* TouchDelayGestureRecognizer.m */; };
 		CFA4F48B1943C499005F3A03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4F48A1943C499005F3A03 /* main.m */; };
 		CFA4F48E1943C499005F3A03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4F48D1943C499005F3A03 /* AppDelegate.m */; };
 		CFA4F4911943C499005F3A03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4F4901943C499005F3A03 /* ViewController.m */; };
 		CFA4F4941943C499005F3A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA4F4921943C499005F3A03 /* Main.storyboard */; };
 		CFA4F4961943C499005F3A03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA4F4951943C499005F3A03 /* Images.xcassets */; };
 		CFA4F4A21943C499005F3A03 /* DotsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4F4A11943C499005F3A03 /* DotsAppTests.m */; };
+		CFA4F4AD1943C4AC005F3A03 /* DotView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4F4AC1943C4AC005F3A03 /* DotView.m */; };
+		CFA4F4B01943C759005F3A03 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4F4AF1943C759005F3A03 /* UIColor+Custom.m */; };
+		CFA4F4B41943CCA5005F3A03 /* DotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA4F4B31943CCA5005F3A03 /* DotsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF8D96A61943D2A900276684 /* OverlayScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayScrollView.h; sourceTree = "<group>"; };
+		CF8D96A71943D2A900276684 /* OverlayScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayScrollView.m; sourceTree = "<group>"; };
+		CF8D96A91943DD6B00276684 /* TouchDelayGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDelayGestureRecognizer.h; sourceTree = "<group>"; };
+		CF8D96AA1943DD6B00276684 /* TouchDelayGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDelayGestureRecognizer.m; sourceTree = "<group>"; };
 		CFA4F4851943C499005F3A03 /* DotsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA4F4891943C499005F3A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFA4F48A1943C499005F3A03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +47,12 @@
 		CFA4F49B1943C499005F3A03 /* DotsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA4F4A01943C499005F3A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFA4F4A11943C499005F3A03 /* DotsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DotsAppTests.m; sourceTree = "<group>"; };
+		CFA4F4AB1943C4AC005F3A03 /* DotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotView.h; sourceTree = "<group>"; };
+		CFA4F4AC1943C4AC005F3A03 /* DotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotView.m; sourceTree = "<group>"; };
+		CFA4F4AE1943C759005F3A03 /* UIColor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Custom.h"; sourceTree = "<group>"; };
+		CFA4F4AF1943C759005F3A03 /* UIColor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Custom.m"; sourceTree = "<group>"; };
+		CFA4F4B21943CCA5005F3A03 /* DotsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotsView.h; sourceTree = "<group>"; };
+		CFA4F4B31943CCA5005F3A03 /* DotsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +94,9 @@
 		CFA4F4871943C499005F3A03 /* DotsApp */ = {
 			isa = PBXGroup;
 			children = (
+				CFA4F4B11943C8AD005F3A03 /* iPad */,
+				CFA4F4AE1943C759005F3A03 /* UIColor+Custom.h */,
+				CFA4F4AF1943C759005F3A03 /* UIColor+Custom.m */,
 				CFA4F48C1943C499005F3A03 /* AppDelegate.h */,
 				CFA4F48D1943C499005F3A03 /* AppDelegate.m */,
 				CFA4F48F1943C499005F3A03 /* ViewController.h */,
@@ -86,6 +104,14 @@
 				CFA4F4921943C499005F3A03 /* Main.storyboard */,
 				CFA4F4951943C499005F3A03 /* Images.xcassets */,
 				CFA4F4881943C499005F3A03 /* Supporting Files */,
+				CFA4F4AB1943C4AC005F3A03 /* DotView.h */,
+				CFA4F4AC1943C4AC005F3A03 /* DotView.m */,
+				CFA4F4B21943CCA5005F3A03 /* DotsView.h */,
+				CFA4F4B31943CCA5005F3A03 /* DotsView.m */,
+				CF8D96A61943D2A900276684 /* OverlayScrollView.h */,
+				CF8D96A71943D2A900276684 /* OverlayScrollView.m */,
+				CF8D96A91943DD6B00276684 /* TouchDelayGestureRecognizer.h */,
+				CF8D96AA1943DD6B00276684 /* TouchDelayGestureRecognizer.m */,
 			);
 			path = DotsApp;
 			sourceTree = "<group>";
@@ -114,6 +140,13 @@
 				CFA4F4A01943C499005F3A03 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFA4F4B11943C8AD005F3A03 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8D96A81943D2A900276684 /* OverlayScrollView.m in Sources */,
+				CF8D96AB1943DD6B00276684 /* TouchDelayGestureRecognizer.m in Sources */,
 				CFA4F4911943C499005F3A03 /* ViewController.m in Sources */,
+				CFA4F4B01943C759005F3A03 /* UIColor+Custom.m in Sources */,
+				CFA4F4B41943CCA5005F3A03 /* DotsView.m in Sources */,
 				CFA4F48E1943C499005F3A03 /* AppDelegate.m in Sources */,
+				CFA4F4AD1943C4AC005F3A03 /* DotView.m in Sources */,
 				CFA4F48B1943C499005F3A03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,8 +371,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DotsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -344,8 +384,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DotsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -404,6 +446,7 @@
 				CFA4F4A71943C499005F3A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFA4F4A81943C499005F3A03 /* Build configuration list for PBXNativeTarget "DotsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +455,7 @@
 				CFA4F4AA1943C499005F3A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

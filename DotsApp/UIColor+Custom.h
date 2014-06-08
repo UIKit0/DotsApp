@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Zakk Hoyt. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface UIColor (Custom)
 +(UIColor*)randomColor;
